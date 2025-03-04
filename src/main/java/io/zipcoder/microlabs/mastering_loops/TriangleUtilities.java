@@ -14,7 +14,7 @@ public class TriangleUtilities {
 
     public static String getTriangle(int numberOfRows) {
         StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < numberOfRows ; i++) {
+        for (int i = 1; i < numberOfRows ; i++) {
             sb.append(getRow(i)).append("\n");
         }
         return sb.toString();
